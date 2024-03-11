@@ -235,7 +235,6 @@ function M.format_data(data, opts)
 			.. lib.adapt_lsp_num_to_str(kind)
 			.. "#"
 			.. local_config.icons[kind]
-			.. "%*%#NavicText#"
 			.. config.format_text(name)
 			.. "%*"
 	end
